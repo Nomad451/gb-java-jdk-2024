@@ -163,7 +163,7 @@ public class Map extends JPanel {
         cellHeight = height / fieldSizeY;
 
         g.setColor(Color.BLACK);
-        for (int h = 0; h < fieldSizeX; h++) {
+        for (int h = 0; h < fieldSizeY; h++) {
             int y = h * cellHeight;
             g.drawLine(0, y, width, y);
         }

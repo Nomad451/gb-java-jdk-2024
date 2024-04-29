@@ -9,7 +9,7 @@ public class SettingsWindow extends JFrame {
     private static final int WIDTH = 230;
     private static final int HEIGHT = 350;
 
-    JButton btnStart;
+    private JButton btnStart;
 
     SettingsWindow(GameWindow gameWindow) {
         btnStart = new JButton("Start new game");

@@ -10,14 +10,14 @@ public class GameWindow extends JFrame {
     private static final int WIDTH = 555;
     private static final int HEIGHT = 507;
 
-    JButton btnStart, btnExit;
-    SettingsWindow settingWindow;
-    Map map;
+    private JButton btnStart, btnExit;
+    private SettingsWindow settingWindow;
+    private Map map;
 
     GameWindow(){
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
-        setLocationRelativeTo(null);
+        setLocationRelativeTo(null); // Позволяет окну появиться по центру экрана
 
         setTitle("TicTacToe");
         setResizable(false);
